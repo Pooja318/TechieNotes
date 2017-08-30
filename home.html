@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Home</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.js"></script>
+    <link href="style/techieMainStyles.css" rel="stylesheet" />
+</head>
+
+<body class="homeBody" data-ng-app="">
+    <header data-ng-include="'includes/nav.html'">
+        <script>
+            $(document).ready(function () {
+                $("#homeNav").addClass("active");
+            });
+        </script>
+    </header>
+    <div class="mainContent">
+        <div id="intro" >
+            Hello!    
+        <br />
+            <br />
+            There have been times when I have started learning different technologies. And I have the habit to creating notes while learning. 
+        But all the points jotted down are present in different notes pads or dairies. 
+        And when I go for interview and have to go through all the topics, I am always struggling finding my notes.
+        So here is my website with all the notes I have created, so that I can have an easy navigation to my Techie Notes!
+        <br />
+            <br />
+            Have fun exploring my notes. And feel free to correct me in any topic if you find any mistake.
+        <br />
+            <br />
+            FYI: The websites design and everything is done from the scratch my me, so that I can implement my learning practically.
+        </div>
+    </div>
+
+    <footer data-ng-include="'includes/footer.html'"></footer>
+</body>
+
+
+</html>
